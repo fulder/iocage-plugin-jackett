@@ -5,6 +5,5 @@
 chown -R jackett /usr/local/share/jackett
 
 # Enable and start service
-
 sysrc jackett_enable=YES
 service jackett start
