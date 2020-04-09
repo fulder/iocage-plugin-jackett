@@ -1,4 +1,3 @@
-
 #!/bin/sh
 
 # Enable and start service
