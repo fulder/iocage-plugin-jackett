@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Pathing mono to 6.8.0"
-pkg install -y bin/mono-6.8.0.105.txz
+pkg install -y /usr/local/migration/bin/mono-6.8.0.105.txz
 
 echo "Syncing CA certificates"
 cert-sync /usr/local/etc/ssl/cert.pem
