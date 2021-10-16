@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ./usr/local/migration/remove_lets_encrypt_ca.sh
-./usr/local/migration/install_bundeled_mono.sh
+./usr/local/migration/install_bundled_mono.sh
 
 # Need to make jackett user own /usr/local/share/jackett folder
 # this is needed for update to work properly
