@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Patching CA certs, removing expired Let's Encrypt cert"
 ca_file=/usr/local/share/certs/ca-root-nss.crt
@@ -22,7 +22,7 @@ do
   fi
 done < ${ca_file}
 
-if [ $cert_line -ne 0 ]
+if [ "$end_line" != "" ]
 then
   sed -i '' "${cert_line},${end_line}d" "${ca_file}"
 fi
