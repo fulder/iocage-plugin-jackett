@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo "Patching mono to 6.8.0"
-pkg install -y /usr/local/migration/bin/mono-6.8.0.105.txz
+./usr/local/migration/remove_lets_encrypt_ca.sh
+./usr/local/migration/install_bundled_mono.sh
 
 # Need to make jackett user own /usr/local/share/jackett folder
 # this is needed for update to work properly
