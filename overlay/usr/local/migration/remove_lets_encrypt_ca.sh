@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 echo "Patching CA certs, removing expired Let's Encrypt cert"
 ca_file=/usr/local/share/certs/ca-root-nss.crt

@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 echo "Remove mono dependency"
 pkg remove -fy mono6.8
